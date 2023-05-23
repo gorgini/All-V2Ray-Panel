@@ -372,14 +372,6 @@ elif [ "$choice" = "9" ]; then
 	wait
 
 	echo -e "\n\e[92mYour backup settings have been reset successfully!\033[0m\n"
-	
-elif [ "$choice" = "99" ]; then
-
-exit
-
-else
-echo -e "\nThe command entered is incorrect\n"
-fi
 
 elif [ "$choice" = "12" ]; then
 
@@ -388,6 +380,13 @@ sudo chmod a+x ubuntu-mainline-kernel.sh
 sudo install ubuntu-mainline-kernel.sh /usr/local/bin
 sudo ubuntu-mainline-kernel.sh -i
 
+
+elif [ "$choice" = "99" ]; then
+
+exit
+
 else
 echo -e "\nThe command entered is incorrect\n"
 fi
+
+
