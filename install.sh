@@ -373,7 +373,7 @@ elif [ "$choice" = "9" ]; then
 
 	echo -e "\n\e[92mYour backup settings have been reset successfully!\033[0m\n"
 
-elif [ "$choice" = "12" ]; then
+if [ "$choice" = "12" ]; then
 
 wget https://raw.githubusercontent.com/pimlie/ubuntu-mainline-kernel.sh/master/ubuntu-mainline-kernel.sh
 sudo chmod a+x ubuntu-mainline-kernel.sh
