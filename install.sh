@@ -5,31 +5,13 @@
 echo " "
 
 echo -e "\e[32m
-                                                                                                                             
-                                                                                                                             
-        GGGGGGGGGGGGG     OOOOOOOOO     RRRRRRRRRRRRRRRRR           GGGGGGGGGGGGGIIIIIIIIIINNNNNNNN        NNNNNNNNIIIIIIIIII
-     GGG::::::::::::G   OO:::::::::OO   R::::::::::::::::R       GGG::::::::::::GI::::::::IN:::::::N       N::::::NI::::::::I
-   GG:::::::::::::::G OO:::::::::::::OO R::::::RRRRRR:::::R    GG:::::::::::::::GI::::::::IN::::::::N      N::::::NI::::::::I
-  G:::::GGGGGGGG::::GO:::::::OOO:::::::ORR:::::R     R:::::R  G:::::GGGGGGGG::::GII::::::IIN:::::::::N     N::::::NII::::::II
- G:::::G       GGGGGGO::::::O   O::::::O  R::::R     R:::::R G:::::G       GGGGGG  I::::I  N::::::::::N    N::::::N  I::::I  
-G:::::G              O:::::O     O:::::O  R::::R     R:::::RG:::::G                I::::I  N:::::::::::N   N::::::N  I::::I  
-G:::::G              O:::::O     O:::::O  R::::RRRRRR:::::R G:::::G                I::::I  N:::::::N::::N  N::::::N  I::::I  
-G:::::G    GGGGGGGGGGO:::::O     O:::::O  R:::::::::::::RR  G:::::G    GGGGGGGGGG  I::::I  N::::::N N::::N N::::::N  I::::I  
-G:::::G    G::::::::GO:::::O     O:::::O  R::::RRRRRR:::::R G:::::G    G::::::::G  I::::I  N::::::N  N::::N:::::::N  I::::I  
-G:::::G    GGGGG::::GO:::::O     O:::::O  R::::R     R:::::RG:::::G    GGGGG::::G  I::::I  N::::::N   N:::::::::::N  I::::I  
-G:::::G        G::::GO:::::O     O:::::O  R::::R     R:::::RG:::::G        G::::G  I::::I  N::::::N    N::::::::::N  I::::I  
- G:::::G       G::::GO::::::O   O::::::O  R::::R     R:::::R G:::::G       G::::G  I::::I  N::::::N     N:::::::::N  I::::I  
-  G:::::GGGGGGGG::::GO:::::::OOO:::::::ORR:::::R     R:::::R  G:::::GGGGGGGG::::GII::::::IIN::::::N      N::::::::NII::::::II
-   GG:::::::::::::::G OO:::::::::::::OO R::::::R     R:::::R   GG:::::::::::::::GI::::::::IN::::::N       N:::::::NI::::::::I
-     GGG::::::GGG:::G   OO:::::::::OO   R::::::R     R:::::R     GGG::::::GGG:::GI::::::::IN::::::N        N::::::NI::::::::I
-        GGGGGG   GGGG     OOOOOOOOO     RRRRRRRR     RRRRRRR        GGGGGG   GGGGIIIIIIIIIINNNNNNNN         NNNNNNNIIIIIIIIII
-                                                                                                                             
-                                                                                                                             
-                                                                                                                             
-                                                                                                                             
-                                                                                                                             
-                                                                                                                             
-                                                                                                                             
+  ______  _____  ______   ______ _____ ______  _____ 
+ / _____)/ ___ \(_____ \ / _____|_____)  ___ \(_____)
+| /  ___| |   | |_____) ) /  ___   _  | |   | |  _   
+| | (___) |   | (_____ (| | (___) | | | |   | | | |  
+| \____/| |___| |     | | \____/|_| |_| |   | |_| |_ 
+ \_____/ \_____/      |_|\_____/(_____)_|   |_(_____)
+                                                     
 \033[0m"
 
 echo -e "\n\e[92mplease wait ...\033[0m\n"
@@ -43,7 +25,7 @@ fi
 
   echo " "
   echo -e  "--------------------------"
-  echo -e  "       \xE2\x9D\xA4  wizwiz \xE2\x9D\xA4"
+  echo -e  "       \xE2\x9D\xA4  Gorgini \xE2\x9D\xA4"
   echo -e  "--------------------------"
   echo -e  "1. Nasb Vaxilu"
   echo -e  "2. Nasb Alireza"
