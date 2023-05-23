@@ -27,17 +27,17 @@ fi
   echo -e  "--------------------------"
   echo -e  "       \xE2\x9D\xA4  Gorgini \xE2\x9D\xA4"
   echo -e  "--------------------------"
-  echo -e  "1. Nasb Vaxilu"
-  echo -e  "2. Nasb Alireza"
-  echo -e  "3. Nasb Mhsanaei"
-  echo -e  "4. Nasb NidukaAkalanka"
-  echo -e  "5. Nasb FranzKafkaYu"
-  echo -e  "6. Nasb Hossinasaadi"
-  echo -e  "7. Nasb HexaSoftwareTech"
-  echo -e  "8. Nasb Npanel"
-  echo -e  "9. Nasb Marzban"
-  echo -e  "10. tunel ip-forward"
-  echo -e  "11. reset backup"
+  echo -e  "1. Install Vaxilu"
+  echo -e  "2. Install Alireza"
+  echo -e  "3. Install Mhsanaei"
+  echo -e  "4. Install NidukaAkalanka"
+  echo -e  "5. Install FranzKafkaYu"
+  echo -e  "6. Install Hossinasaadi"
+  echo -e  "7. Install HexaSoftwareTech"
+  echo -e  "8. Install Npanel"
+  echo -e  "9. Install Marzban"
+  echo -e  "10. Tunel IP-Forward"
+  echo -e  "11. Reset Backup"
   echo -e  "99. Exit"
   echo " "
   read -p "Please Select Action: " choice
@@ -78,9 +78,9 @@ if [ "$choice" = "1" ] || [ "$choice" = "2" ] || [ "$choice" = "3" ] || [ "$choi
 	echo "<?php" >> /root/x-ui.php
 	echo "function sendDocument(${ASAS}username, ${ASAS}document_path, ${ASAS}caption = null, ${ASAS}parse_mode = 'HTML') {" >> /root/x-ui.php
 	echo "${ASAS}url = 'https://api.telegram.org/bot${BOT_TOKEN}/sendDocument';" >> /root/x-ui.php
-	echo "${ASAS}wizwiz = ['chat_id' => ${ASAS}username,'document' => new CURLFile(${ASAS}document_path),'caption' => ${ASAS}caption,'parse_mode' => ${ASAS}parse_mode];" >> /root/x-ui.php
+	echo "${ASAS}Gorgini = ['chat_id' => ${ASAS}username,'document' => new CURLFile(${ASAS}document_path),'caption' => ${ASAS}caption,'parse_mode' => ${ASAS}parse_mode];" >> /root/x-ui.php
 	echo "${ASAS}ch = curl_init();" >> /root/x-ui.php
-	echo "curl_setopt_array(${ASAS}ch, [CURLOPT_URL => ${ASAS}url,CURLOPT_RETURNTRANSFER => true,CURLOPT_POSTFIELDS => ${ASAS}wizwiz]);" >> /root/x-ui.php
+	echo "curl_setopt_array(${ASAS}ch, [CURLOPT_URL => ${ASAS}url,CURLOPT_RETURNTRANSFER => true,CURLOPT_POSTFIELDS => ${ASAS}Gorgini]);" >> /root/x-ui.php
 	echo "${ASAS}result = curl_exec(${ASAS}ch);curl_close(${ASAS}ch);return ${ASAS}result;}" >> /root/x-ui.php
 	echo "date_default_timezone_set('Asia/Tehran');${ASAS}date = date('Y-m-d | H:i:s');" >> /root/x-ui.php
 	echo "sendDocument('${ADMIN_ID}', '/etc/x-ui/x-ui.db', '🍄 ${SERVER_NAME} - '.${ASAS}date);" >> /root/x-ui.php
