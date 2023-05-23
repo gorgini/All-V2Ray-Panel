@@ -13,7 +13,8 @@ echo -e "\e[32m
  \_____/ \_____/      |_|\_____/(_____)_|   |_(_____)
                                                      
 \033[0m"
-
+echo -e "\n\e[92mwww.gorgini.ir\033[0m\n"
+echo -e "\n\e[92mInstagram ID: @gorgini.ir\033[0m\n"
 echo -e "\n\e[92mplease wait ...\033[0m\n"
 
 sleep 1
