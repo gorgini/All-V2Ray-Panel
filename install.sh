@@ -1,16 +1,35 @@
 #!/bin/bash
 
-# Written By: wizwiz
+# Written By: Gorgini
 
 echo " "
 
 echo -e "\e[32m
-██╗    ██╗██╗███████╗██╗    ██╗██╗███████╗
-██║    ██║██║╚══███╔╝██║    ██║██║╚══███╔╝
-██║ █╗ ██║██║  ███╔╝ ██║ █╗ ██║██║  ███╔╝ 
-██║███╗██║██║ ███╔╝  ██║███╗██║██║ ███╔╝  
-╚███╔███╔╝██║███████╗╚███╔███╔╝██║███████╗
- ╚══╝╚══╝ ╚═╝╚══════╝ ╚══╝╚══╝ ╚═╝╚══════╝
+                                                                                                                             
+                                                                                                                             
+        GGGGGGGGGGGGG     OOOOOOOOO     RRRRRRRRRRRRRRRRR           GGGGGGGGGGGGGIIIIIIIIIINNNNNNNN        NNNNNNNNIIIIIIIIII
+     GGG::::::::::::G   OO:::::::::OO   R::::::::::::::::R       GGG::::::::::::GI::::::::IN:::::::N       N::::::NI::::::::I
+   GG:::::::::::::::G OO:::::::::::::OO R::::::RRRRRR:::::R    GG:::::::::::::::GI::::::::IN::::::::N      N::::::NI::::::::I
+  G:::::GGGGGGGG::::GO:::::::OOO:::::::ORR:::::R     R:::::R  G:::::GGGGGGGG::::GII::::::IIN:::::::::N     N::::::NII::::::II
+ G:::::G       GGGGGGO::::::O   O::::::O  R::::R     R:::::R G:::::G       GGGGGG  I::::I  N::::::::::N    N::::::N  I::::I  
+G:::::G              O:::::O     O:::::O  R::::R     R:::::RG:::::G                I::::I  N:::::::::::N   N::::::N  I::::I  
+G:::::G              O:::::O     O:::::O  R::::RRRRRR:::::R G:::::G                I::::I  N:::::::N::::N  N::::::N  I::::I  
+G:::::G    GGGGGGGGGGO:::::O     O:::::O  R:::::::::::::RR  G:::::G    GGGGGGGGGG  I::::I  N::::::N N::::N N::::::N  I::::I  
+G:::::G    G::::::::GO:::::O     O:::::O  R::::RRRRRR:::::R G:::::G    G::::::::G  I::::I  N::::::N  N::::N:::::::N  I::::I  
+G:::::G    GGGGG::::GO:::::O     O:::::O  R::::R     R:::::RG:::::G    GGGGG::::G  I::::I  N::::::N   N:::::::::::N  I::::I  
+G:::::G        G::::GO:::::O     O:::::O  R::::R     R:::::RG:::::G        G::::G  I::::I  N::::::N    N::::::::::N  I::::I  
+ G:::::G       G::::GO::::::O   O::::::O  R::::R     R:::::R G:::::G       G::::G  I::::I  N::::::N     N:::::::::N  I::::I  
+  G:::::GGGGGGGG::::GO:::::::OOO:::::::ORR:::::R     R:::::R  G:::::GGGGGGGG::::GII::::::IIN::::::N      N::::::::NII::::::II
+   GG:::::::::::::::G OO:::::::::::::OO R::::::R     R:::::R   GG:::::::::::::::GI::::::::IN::::::N       N:::::::NI::::::::I
+     GGG::::::GGG:::G   OO:::::::::OO   R::::::R     R:::::R     GGG::::::GGG:::GI::::::::IN::::::N        N::::::NI::::::::I
+        GGGGGG   GGGG     OOOOOOOOO     RRRRRRRR     RRRRRRR        GGGGGG   GGGGIIIIIIIIIINNNNNNNN         NNNNNNNIIIIIIIIII
+                                                                                                                             
+                                                                                                                             
+                                                                                                                             
+                                                                                                                             
+                                                                                                                             
+                                                                                                                             
+                                                                                                                             
 \033[0m"
 
 echo -e "\n\e[92mplease wait ...\033[0m\n"
@@ -26,15 +45,15 @@ fi
   echo -e  "--------------------------"
   echo -e  "       \xE2\x9D\xA4  wizwiz \xE2\x9D\xA4"
   echo -e  "--------------------------"
-  echo -e  "1. backup Vaxilu"
-  echo -e  "2. backup Alireza"
-  echo -e  "3. backup Mhsanaei"
-  echo -e  "4. backup NidukaAkalanka"
-  echo -e  "5. backup FranzKafkaYu"
-  echo -e  "6. backup Hossinasaadi"
-  echo -e  "7. backup HexaSoftwareTech"
-  echo -e  "8. backup Npanel"
-  echo -e  "9. backup Marzban"
+  echo -e  "1. Nasb Vaxilu"
+  echo -e  "2. Nasb Alireza"
+  echo -e  "3. Nasb Mhsanaei"
+  echo -e  "4. Nasb NidukaAkalanka"
+  echo -e  "5. Nasb FranzKafkaYu"
+  echo -e  "6. Nasb Hossinasaadi"
+  echo -e  "7. Nasb HexaSoftwareTech"
+  echo -e  "8. Nasb Npanel"
+  echo -e  "9. Nasb Marzban"
   echo -e  "10. tunel ip-forward"
   echo -e  "11. reset backup"
   echo -e  "99. Exit"
