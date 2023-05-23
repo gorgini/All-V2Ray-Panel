@@ -39,6 +39,7 @@ fi
   echo -e  "9. Install Marzban"
   echo -e  "10. Tunel IP-Forward"
   echo -e  "11. Reset Backup"
+  echo -e  "12. Update Latest Kernel"
   echo -e  "99. Exit"
   echo " "
   read -p "Please Select Action: " choice
@@ -375,6 +376,17 @@ elif [ "$choice" = "9" ]; then
 elif [ "$choice" = "99" ]; then
 
 exit
+
+else
+echo -e "\nThe command entered is incorrect\n"
+fi
+
+elif [ "$choice" = "12" ]; then
+
+wget https://raw.githubusercontent.com/pimlie/ubuntu-mainline-kernel.sh/master/ubuntu-mainline-kernel.sh
+sudo chmod a+x ubuntu-mainline-kernel.sh
+sudo install ubuntu-mainline-kernel.sh /usr/local/bin
+sudo ubuntu-mainline-kernel.sh -i
 
 else
 echo -e "\nThe command entered is incorrect\n"
