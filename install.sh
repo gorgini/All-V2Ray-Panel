@@ -388,5 +388,3 @@ exit
 else
 echo -e "\nThe command entered is incorrect\n"
 fi
-
-
